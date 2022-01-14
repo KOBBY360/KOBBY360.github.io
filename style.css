@@ -1,0 +1,281 @@
+/*MY CODE*/
+
+* {
+   text-decoration: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    header div img {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 10px;
+        padding: 0px 20px 0px 40px;
+        float: left;
+
+    }    
+}
+
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+display: block;
+margin: 0 auto;
+width: fit-content;
+}
+
+header nav ul li {
+ display: inline-block;
+ list-style: none;
+ float: left;
+ padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header nav :hover {
+    color: orangered;
+
+}
+
+header .header-cases {
+    display: none;
+    float: right;
+}
+
+@media only screen and (min-width: 1000px) {
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0px 20px 0px 40px;
+        border-right: 3px solid #111;
+        float: left;
+
+    }  
+    
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+        
+    }
+        
+    
+        
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-cases {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+
+    }
+}    
+
+
+/*INDEX*/
+
+.index-banner {
+    width: 100%;
+    height:  calc(100vh - 100px);
+    background-image: url("images/TeamKK.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: Garamond;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: orangered;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+    font-family: italic;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-link div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: red;
+}
+
+.index-link div h3 {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+        
+     
+    .index-banner {
+        height:  450px;
+        
+    }
+
+    .index-banner h1 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+    
+    .index-link div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: rgb(214, 214, 214);
+        float: left;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .index-link div h3 {
+        line-height: 230px;
+    }
+
+    .index-link :hover {
+        color: orangered;
+    }
+    
+}    
+
+/*FOOTER*/
+
+footer {
+    width: (100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+
+footer ul {
+width: fit-content;
+float: left;
+padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: arial;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-link-cases ul li {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-sm {
+    width: 50px;
+    float: right;
+}
+
+.footer-sm  img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer-link-cases {
+    display: block;
+    width: fit-content
+    }
+
+
+    footer ul li p {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 24px;
+       color: white;
+       line-height: 40px;
+       text-transform: uppercase;
+    }
+}
+
+.footer-link-main :hover {
+    color: orangered;
+
+}
+
+
+
+
+
